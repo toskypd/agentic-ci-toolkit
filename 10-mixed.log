@@ -1,0 +1,7 @@
+##[group]Run npm test
+ FAIL  test/user.test.ts > creates a user
+TypeError: Cannot read properties of undefined (reading 'id')
+ ❯ src/user.ts:30:18
+AssertionError: expected undefined to be defined
+Test Files  1 failed (1)
+##[error]Process completed with exit code 1.

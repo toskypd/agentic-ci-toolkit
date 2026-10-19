@@ -1,0 +1,5 @@
+##[group]Run npm ci
+npm ERR! code ECONNRESET
+npm ERR! network aborted
+npm ERR! network request to https://registry.npmjs.org/zod failed, reason: socket hang up
+##[error]Process completed with exit code 1.

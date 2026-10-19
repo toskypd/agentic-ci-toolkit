@@ -1,0 +1,7 @@
+##[group]Run npm run build
+> app@1.0.0 build
+> tsc -p tsconfig.json
+src/api/orders.ts(42,17): error TS2345: Argument of type 'string' is not assignable to parameter of type 'number'.
+src/api/orders.ts(58,5): error TS2322: Type 'undefined' is not assignable to type 'Order'.
+Found 2 errors in the same file, starting at: src/api/orders.ts:42
+##[error]Process completed with exit code 2.

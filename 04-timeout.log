@@ -1,0 +1,6 @@
+##[group]Run npm test
+ FAIL  test/queue.test.ts > drains the queue
+Error: Test timed out in 5000ms.
+If this is a long-running test, pass a timeout value as the last argument or configure it globally.
+Test Files  1 failed | 6 passed (7)
+##[error]Process completed with exit code 1.

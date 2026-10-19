@@ -1,0 +1,5 @@
+##[group]Run npm run migrate
+> app@1.0.0 migrate
+Error: DATABASE_URL is not set
+    at loadConfig (/home/runner/work/app/src/config.ts:9:11)
+##[error]Process completed with exit code 1.

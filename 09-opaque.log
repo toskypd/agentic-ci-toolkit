@@ -1,0 +1,4 @@
+##[group]Run ./scripts/deploy.sh
+Deploying to staging...
+Step 3 of 5 complete
+##[error]Process completed with exit code 1.

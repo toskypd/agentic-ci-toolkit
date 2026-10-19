@@ -1,0 +1,4 @@
+##[group]Run npm run build
+<--- Last few GCs --->
+FATAL ERROR: Ineffective mark-compacts near heap limit Allocation failed - JavaScript heap out of memory
+##[error]Process completed with exit code 134.

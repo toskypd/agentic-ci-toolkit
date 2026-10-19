@@ -1,0 +1,6 @@
+##[group]Run npm run lint
+> eslint . --max-warnings 0
+/home/runner/work/app/src/utils/format.ts
+  12:7  error  'unused' is assigned a value but never used  @typescript-eslint/no-unused-vars
+✖ 3 problems (2 errors, 1 warning)
+##[error]Process completed with exit code 1.

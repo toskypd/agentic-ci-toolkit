@@ -1,0 +1,8 @@
+##[group]Run npm test
+ FAIL  test/cart.test.ts > applies discount to subtotal
+AssertionError: expected 90 to be 95 // Object.is equality
+ ❯ test/cart.test.ts:21:30
+Expected: 95
+Received: 90
+Test Files  1 failed | 4 passed (5)
+##[error]Process completed with exit code 1.

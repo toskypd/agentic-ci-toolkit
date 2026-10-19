@@ -1,0 +1,29 @@
+{
+  "name": "agentic-ci-toolkit",
+  "version": "0.1.0",
+  "description": "A PR quality gate and a validated AI agent that investigates CI failures. TypeScript, Node.js.",
+  "type": "module",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "typecheck": "tsc -p tsconfig.json --noEmit",
+    "test": "vitest run",
+    "gate": "tsx src/quality-gate/cli.ts",
+    "investigate": "tsx src/ci-agent/cli.ts",
+    "eval": "tsx src/ci-agent/eval.ts"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "@langchain/core": "^1.2.18",
+    "@langchain/langgraph": "^1.5.1",
+    "typescript": "^5.9.3",
+    "zod": "^3.25.76"
+  },
+  "devDependencies": {
+    "@types/node": "^22.20.5",
+    "tsx": "^4.23.15",
+    "vitest": "^2.1.9"
+  }
+}
